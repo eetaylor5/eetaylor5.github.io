@@ -3,32 +3,77 @@
 <!--
 Full name: Emily Taylor
 Course number: CISC474
-Name of the assignment: Personal Web Page 1
+Name of the assignment: Personal Web Page 3
 Email address: eetaylor@udel.edu
 -->
 
 <head>
 <title> Emily Taylor </title>
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link type="text/css" rel="stylesheet" href="/css/styles.css" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-211789413-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-211789413-1');
+</script>
 </head>
 
 <body>
-<ul id="menu">
-    <li><a href="https://jakescreen.github.io/"> Previous Student </a></li>
-  <li><a href="./index.html"> Home </a></li>
-  <li><a href="./aboutMe.html"> About Me </a></li>
-  <li><a href="./form.html"> Contact Form </a></li>
-  <li><a href="https://mattm401.github.io/"> Course Website </a></li>
-  <li><a href="https://parth531.github.io"> Next Student </a></li>
-</ul>
-
-<div class="myDiv">
-	<h1> My name is Emily Taylor. </h1>
-	<h2> You can call me Emily. </h2>
+<div class="topnav" id="myTopnav">
+  <a href="./index.html"> Home </a>
+  <a href="./resume.html"> Resume </a>
+  <div class="dropdown">
+    <button class="dropbtn">Class Links
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://jakescreen.github.io/"> Previous Student </a>
+      <a href="https://mattm401.github.io/"> Course Website </a>
+      <a href="https://parth531.github.io"> Next Student </a>
+    </div>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
+<p></p>
+<img class="center" src="profile.JPG" alt="A picture of me at Universal Studios Orlando">
+<h2>About Me</h2>
+<section>
+  <p style="font-size:125%">
+    Name: Emily Taylor <br>
+    Year: Senior <br>
+    Major: Computer Science BS <br>
+    Concentration: Software Engineering <br>
+  </p>
+  <p style="font-size:125%">
+    I am a undergraduate at the University of Delaware pursuing a Bachelor's degree in Computer Science with a 
+    concentration in Software Engineering. I am looking for entry level positions, especially in Software 
+    Engineering or other related roles. I recently joined the Sensify research labs at UD, and I’ve been 
+    developing and optimizing the procedural generation of character data using C# in Unity3D. The data will 
+    be used to train deep learning models that will rapidly generate interesting and dynamic video game 
+    characters with a long-term goal to explore character-based creativity support tools that integrate well 
+    into game development practices and workflows. During the semester, I work on the ECE/CIS Labstaff, which 
+    supports the Electrical and Computer Engineering and Computer Information Systems departments and their 
+    faculty. As part of my job, I often respond to posts in the ticket system in order to resolve individual 
+    issues, as well as, work with other members of the Labstaff on more long term projects. Outside of class, 
+    I am involved in a number of student organizations both pertaining to Computer Science and not. I am the 
+    treasurer for the CS+ Social Good organization, which focuses on outreach and other ways to give back 
+    through Computer Science.
+  </p>
+</section>
 
-<img src="profile.JPG" alt="A picture of me at Universal Studios Orlando">
-
+<footer>
+  <p>
+    Email: eetaylor@udel.edu
+  </p>
+  <a href="https://github.com/eetaylor5/" class="fa fa-github" style="font-size:36px;color:white"></a>
+  <br>
+  <a href="https://www.linkedin.com/in/emily-taylor-694954192/" class="fa fa-linkedin" style="font-size:36px;color:white"></a>
+</footer>
 </body>
 </html>
